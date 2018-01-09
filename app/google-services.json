@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "54891855065",
+    "firebase_url": "https://drone-47ea1.firebaseio.com",
+    "project_id": "drone-47ea1",
+    "storage_bucket": "drone-47ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54891855065:android:134151552248cb56",
+        "android_client_info": {
+          "package_name": "e.win10user.drone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54891855065-2mv2sfn0ukq9b1bn2rnp0822acra2li2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.win10user.drone",
+            "certificate_hash": "d0e08dbe799432be0e75bfb8a1379bdea7b461c8"
+          }
+        },
+        {
+          "client_id": "54891855065-835opsr8mbce19hlia80eman1fr7dhmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.win10user.drone",
+            "certificate_hash": "81d197b5f301ae9f464c1f4d3d069940db0031e9"
+          }
+        },
+        {
+          "client_id": "54891855065-aphb45kcqnlpe3nkc4ref81r2jobreft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCYawpUNIDmQPPACZzIuFmBz0FDi1R2gM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54891855065-aphb45kcqnlpe3nkc4ref81r2jobreft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
