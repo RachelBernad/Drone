@@ -7,9 +7,11 @@
     tools:context="e.win10user.drone.MainActivity">
 
     <Button
+        android:id="@+id/btn"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:text="service"
-        android:id="@+id/btn"/>
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="126dp" />
 
 </android.support.constraint.ConstraintLayout>

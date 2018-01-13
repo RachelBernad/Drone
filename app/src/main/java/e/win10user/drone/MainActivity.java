@@ -7,12 +7,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.google.firebase.analytics.FirebaseAnalytics;
-
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
-    private FirebaseAnalytics mFirebaseAnalytics;
-    private MyFirebaseInstanceIDService mIDService;
+    //private MyFirebaseInstanceIDService mIDService;
     private Button btn;
 
     @Override
@@ -20,21 +17,14 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Obtain the Firebase instance
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        //mIDService.onCreate();
-        Bundle bundle = new Bundle();
-        bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "USER");
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
-
         btn = findViewById(R.id.btn);
-
         btn.setOnClickListener(this);
     }
 
     public void onClick(View v)
     {
-        Intent send = new Intent(this, mIDService.getClass());
+
+        Intent send = new Intent(this, MyFirebaseInstanceIDService.class);
         startService(send);
     }
 
