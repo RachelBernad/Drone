@@ -10,6 +10,11 @@ import android.util.Log;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
 
+import java.io.IOException;
+
+import okhttp3.Response;
+import okhttp3.ResponseBody;
+
 public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
     @Override
@@ -40,6 +45,18 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
         private void sendRegistrationToServer(String token) {
             // TODO: Implement this method to send token to your app server.
+            SendMessage apiHandler = new SendMessage();
+            Response response = apiHandler.post("{\"token\":\""+token);
+            if (response.isSuccessful()) {
+                final ResponseBody body = response.body();
+                try {
+                    Log.d(TAG, "Successful" + body.string());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            } else {
+                Log.d(TAG, "body invalid");
+            }
         }
     }
 

@@ -23,9 +23,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     public void onClick(View v)
     {
-
-        Intent send = new Intent(this, MyFirebaseInstanceIDService.class);
-        startService(send);
+        //Intent send = new Intent(this, MyFirebaseInstanceIDService.class);
+        //startService(send);
     }
 
 
