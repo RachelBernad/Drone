@@ -1,0 +1,19 @@
+#Mon Mar 05 03:30:24 IST 2018
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\58
+base.4=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\60
+base.3=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\57
+base.2=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\61
+base.1=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
+base.0=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\59
+file.5=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\58\\classes.dex
+file.4=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\60\\classes.dex
+file.3=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\57\\classes.dex
+file.2=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\61\\classes.dex
+file.1=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56\\classes.dex
+file.0=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\59\\classes.dex

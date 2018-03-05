@@ -1,0 +1,4 @@
+#Mon Mar 05 03:30:23 IST 2018
+base.0=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\43
+renamed.0=classes.dex
+file.0=D\:\\rachel\\wifistuff-20180303T232935Z-001\\wifistuff\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\43\\classes.dex

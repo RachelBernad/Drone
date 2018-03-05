@@ -1,0 +1,4 @@
+#Sun Mar 04 01:40:59 IST 2018
+base.0=C\:\\Users\\Win10 User\\Desktop\\Drone\\appWifi\\build\\intermediates\\transforms\\dexMerger\\debug\\42
+path.0=classes.dex
+renamed.0=classes.dex
